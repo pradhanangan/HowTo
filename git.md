@@ -86,3 +86,5 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 `git worktree add -b <new-branch-name> <path-to-folder> <existing-branch-name>```
 `git worktree add -b hotfix/WSP-19711 ../WSP-19711 develop`
 
+git worktree remove --force ..\WSP-19711-Cordis\
+
