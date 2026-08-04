@@ -55,10 +55,17 @@ PS>git commit -m "Initial commit"
 
 PS>git clone
 
-#####Discard Tracked Files
-```
+### Discard Tracked Files
+- Discard unstaged changes in all files:
+```powershell
 PS>git restore .
+```
+- Discard unstaged changes in a specific file:
+```
 PS>git restore <filepath>
+```
+- Discard both staged and unstaged changes entirely:
+```powershell
 PS>git reset --hard
 ```
 ### Gitflow
