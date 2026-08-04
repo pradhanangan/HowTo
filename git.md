@@ -54,7 +54,10 @@ PS>git commit -m "Initial commit"
 </code></pre>
 
 PS>git clone
-
+### Delete Branch
+```powershell
+git branch -D <branchname>
+```
 ### Discard Tracked Files (Modified Files)
 - Discard unstaged changes in all files:
 ```powershell
