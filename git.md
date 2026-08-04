@@ -68,6 +68,28 @@ git restore <filepath>
 ```powershell
 git reset --hard
 ```
+
+### Delete Untracked Files (New Files)
+- See what untracked files will be deleted
+```powershell
+git clean -nd
+```
+- Permanently delete untracked files and directories:
+```powershell
+git clean -fd
+```
+
+### Nuke Everything
+```powershell
+git reset --hard
+git clean -fd
+```
+
+### Clean Up Safely (Stashing)
+```powershell
+git stash -u
+```
+
 ### Gitflow
 
 flow for deployment is as follows:
