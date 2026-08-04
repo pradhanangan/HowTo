@@ -55,6 +55,12 @@ PS>git commit -m "Initial commit"
 
 PS>git clone
 
+#####Discard Tracked Files
+```
+PS>git restore .
+PS>git restore <filepath>
+PS>git reset --hard
+```
 ### Gitflow
 
 flow for deployment is as follows:
