@@ -54,10 +54,18 @@ PS>git commit -m "Initial commit"
 </code></pre>
 
 PS>git clone
-### Delete Branch
+
+### Delete a Local Branch
+- Delete the branch safely
 ```powershell
-git branch -D <to-delete-branch-name>
+git branch -d branch_name
 ```
+
+- Force-delete the branch
+```powershell
+git branch -d branch_name
+```
+
 ### Discard Tracked Files (Modified Files)
 - Discard unstaged changes in all files:
 ```powershell
