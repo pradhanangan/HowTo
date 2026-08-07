@@ -28,14 +28,15 @@ PS>git config [--global] user.email "email@address.com"
 ```
 git remote -v
 ```
-### Remove remote origin
-```
-git remote remove origin
-```
 ### Add remote origin
 ```
 git remote add origin remote_repository_url
 ```
+### Remove remote origin
+```
+git remote remove origin
+```
+
 
 
 ### List all branches
