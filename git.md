@@ -25,8 +25,18 @@ PS>git config [--global] user.name "Full Name"
 PS>git config [--global] user.email "email@address.com"
 
 ### View remote origin
+```
+git remote -v
+```
+### Remove remote origin
+```
+git remote remove origin
+```
+### Add remote origin
+```
+git remote add origin remote_repository_url
+```
 
-PS>git remote -v
 
 ### List all branches
 
