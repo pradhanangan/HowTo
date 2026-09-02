@@ -112,6 +112,17 @@ git clean -fd
 git stash -u
 ```
 
+### Stashing file
+```powershell
+git stash push -m "your stash message" -- path/to/file1.txt path/to/file2.txt
+```
+
+### Stashing untracked file
+```powershell
+git stash push -u -m "your stash message" -- path/to/file1.txt path/to/file2.txt
+```
+
+
 ### Gitflow
 
 flow for deployment is as follows:
