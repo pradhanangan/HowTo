@@ -151,6 +151,8 @@ Reference:
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Worktree Commands
+### Create worktree
+
 ```powershell
 git worktree add -b new_branch_name path_to_folder existing_branch_name
 ```
@@ -158,9 +160,10 @@ git worktree add -b new_branch_name path_to_folder existing_branch_name
 Example
 
 ```powershell
-git worktree add -b hotfix/WSP-19711 ../WSP-19711 develop`
+git worktree add -b hotfix/WSP-19711 ../WSP-19711 develop
 ```
 
+### Remove worktree
 ```powershell
 git worktree remove --force ..\WSP-19711-Cordis\
 ```
