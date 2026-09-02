@@ -164,6 +164,18 @@ git worktree add -b hotfix/WSP-19711 ../WSP-19711 develop
 ```
 
 ### Remove worktree
+- Basic removal
 ```powershell
 git worktree remove --force ..\WSP-19711-Cordis\
 ```
+- Force removal
+```powershell
+git worktree remove ..\WSP-19711-Cordis\
+```
+- Cleaning up
+```powershell
+git worktree prune
+git branch -d <branch_name>
+```
+
+
