@@ -151,7 +151,7 @@ Reference:
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Worktree Commands
-### Create worktree
+### Create Worktree
 
 ```powershell
 git worktree add -b new_branch_name path_to_folder existing_branch_name
@@ -163,7 +163,22 @@ Example
 git worktree add -b hotfix/WSP-19711 ../WSP-19711 develop
 ```
 
-### Remove worktree
+### How to Merge Worktree changes
+1. Commit and push
+```powershell
+cd /path/to/main-repository
+```
+2. Switch to your target branch
+```powershell
+git checkout main
+git pull
+```
+3. Execute the merge
+```powershell
+git merge feature-branch-name
+```
+
+### Remove Worktree
 - Basic removal
 ```powershell
 git worktree remove --force ..\WSP-19711-Cordis\
