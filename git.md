@@ -154,7 +154,7 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 ### Create Worktree
 
 ```powershell
-git worktree add -b new_branch_name path_to_folder existing_branch_name
+git worktree add -b new_branch_name ../path_to_dir existing_branch_name
 ```
 
 Example
