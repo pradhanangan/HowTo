@@ -152,15 +152,8 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 ## Worktree Commands
 ### Create Worktree
-
 ```powershell
 git worktree add -b new_branch_name ../path_to_dir existing_branch_name
-```
-
-Example
-
-```powershell
-git worktree add -b hotfix/WSP-19711 ../WSP-19711 develop
 ```
 
 ### How to Merge Worktree changes
