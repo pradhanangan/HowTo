@@ -1,11 +1,13 @@
 # Install Git on Windows
 https://git-scm.com/install/windows
+
 https://gitforwindows.org
 
 # Git in PowerShell
 posh-git
 
 https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell
+
 https://github.com/dahlbyk/posh-git
 
 # Useful git commands
