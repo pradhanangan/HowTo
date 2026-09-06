@@ -1,5 +1,8 @@
-# Git in PowerShell
+# Install Git on Windows
+https://git-scm.com/install/windows
+https://gitforwindows.org
 
+# Git in PowerShell
 posh-git
 
 https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell
@@ -174,11 +177,11 @@ git merge feature-branch-name
 ### Remove Worktree
 - Basic removal
 ```powershell
-git worktree remove --force ..\WSP-19711-Cordis\
+git worktree remove ..\WSP-19711-Cordis\
 ```
 - Force removal
 ```powershell
-git worktree remove ..\WSP-19711-Cordis\
+git worktree remove --force ..\WSP-19711-Cordis\
 ```
 - Cleaning up
 ```powershell
