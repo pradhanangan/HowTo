@@ -4,16 +4,16 @@ https://gitforwindows.org
 
 ## Tools 
 ### Git in PowerShell
-_posh-git_ \
+__posh-git__ \
 https://git-scm.com/book/en/v2/Appendix-A%3A-Git-in-Other-Environments-Git-in-PowerShell \
 https://github.com/dahlbyk/posh-git
 
 # Useful git commands
 
 ### Check git version
-
+```powershell
 PS> git --version
-
+```
 ### Update git
 
 PS>git update-git-for-windows
