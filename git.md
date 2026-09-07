@@ -12,7 +12,7 @@ https://github.com/dahlbyk/posh-git
 
 ### Check git version
 ```powershell
-PS> git --version
+git --version
 ```
 ### Update git
 
