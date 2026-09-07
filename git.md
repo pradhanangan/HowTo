@@ -33,14 +33,12 @@ git remote -v
 ```
 ### Add remote origin
 ```
-git remote add origin remote_repository_url
+git remote add origin <remote_repository_url>
 ```
 ### Remove remote origin
 ```
 git remote remove origin
 ```
-
-
 
 ### List all branches
 
