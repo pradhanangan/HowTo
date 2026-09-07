@@ -1,6 +1,6 @@
 # Install Git on Windows
 https://git-scm.com/install/windows \
-https://gitforwindows.org \
+https://gitforwindows.org 
 
 ## Tools 
 ### Git in PowerShell
