@@ -15,18 +15,18 @@ https://github.com/dahlbyk/posh-git
 git --version
 ```
 ### Update git
-
-PS>git update-git-for-windows
-
+```powershell
+git update-git-for-windows
+```
 ### View git configuration
-
-PS>git config --list
-
+```powershell
+git config --list
+```
 ### Configure name and email address for commits
-
-PS>git config [--global] user.name "Full Name"
-PS>git config [--global] user.email "email@address.com"
-
+```powershell
+git config [--global] user.name "Full Name"
+git config [--global] user.email "email@address.com"
+```
 ### View remote origin
 ```
 git remote -v
