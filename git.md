@@ -46,7 +46,7 @@ git branch
 ```
 - To see remote branches
 ```
-PS>git branch -r
+git branch -r
 ```
 - To see all local and remote branches
 ```powershell
