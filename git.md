@@ -39,23 +39,29 @@ git remote add origin <remote_repository_url>
 ```
 git remote remove origin
 ```
+### Branching
+- To see local branches
+```
+git branch
+```
+- To see remote branches
+```
+PS>git branch -r
+```
+- To see all local and remote branches
+```powershell
+git branch -a
+```
 
-### List all branches
+- Create a new branch
+```
+git checkout -b <my_branch_name>
+```
 
-To see local branches \
-`PS>git branch`
-
-To see remote branches \
-`PS>git branch -r`
-
-To see all local and remote branches
-`PS>git branch -a`
-
-Create a new branch
-`PS>git checkout -b <my-branch-name>`
-
-Switch to a branch in local repo
-`PS>git checkout <my-branch-name>`
+- Switch to a branch in local repo
+```
+git checkout <my_branch_name>
+```
 
 <pre><code>
 PS>git init
