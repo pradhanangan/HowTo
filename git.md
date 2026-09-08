@@ -39,6 +39,11 @@ git remote add origin <remote_repository_url>
 ```
 git remote remove origin
 ```
+
+
+
+
+
 ### Branching
 - To see local branches
 ```
@@ -62,16 +67,6 @@ git checkout -b <my_branch_name>
 ```
 git checkout <my_branch_name>
 ```
-
-<pre><code>
-PS>git init
-PS>git remote add origin <b>remote repository url</b> 
-PS>git remote -v
-PS>git add .
-PS>git commit -m "Initial commit"
-</code></pre>
-
-PS>git clone
 
 ### Delete a Local Branch
 - Delete the branch safely
@@ -129,6 +124,16 @@ git stash push -m "your stash message" -- path/to/file1.txt path/to/file2.txt
 git stash push -u -m "your stash message" -- path/to/file1.txt path/to/file2.txt
 ```
 
+
+<pre><code>
+PS>git init
+PS>git remote add origin <b>remote repository url</b> 
+PS>git remote -v
+PS>git add .
+PS>git commit -m "Initial commit"
+</code></pre>
+
+PS>git clone
 
 ### Gitflow
 
