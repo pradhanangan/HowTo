@@ -17,7 +17,7 @@
 10. KeePass 2
 11. Postman
 12. Ditto Clipboard (*)
-
+13. WinDirStat - Windows Directory Statistics
 _AWS specific_
 
 11. AWS Tookkit for Visual Studio (AWS SDK for .NET)
