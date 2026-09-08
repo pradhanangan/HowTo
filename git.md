@@ -39,6 +39,8 @@ git remote add origin <remote_repository_url>
 ```
 git remote remove origin
 ```
+
+## Branching
 ### View Local Branch
 - To see local branches
 ```
