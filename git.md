@@ -39,12 +39,7 @@ git remote add origin <remote_repository_url>
 ```
 git remote remove origin
 ```
-
-
-
-
-
-### Branching
+### View Local Branch
 - To see local branches
 ```
 git branch
@@ -76,7 +71,7 @@ git branch -d branch_name
 
 - Force-delete the branch
 ```powershell
-git branch -d branch_name
+git branch -D branch_name
 ```
 
 ### Discard Tracked Files (Modified Files)
