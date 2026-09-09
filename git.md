@@ -76,6 +76,7 @@ git branch -d branch_name
 git branch -D branch_name
 ```
 
+## Other
 ### Discard Tracked Files (Modified Files)
 - Discard unstaged changes in all files:
 ```powershell
