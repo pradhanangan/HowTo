@@ -57,13 +57,14 @@ git branch -a
 ### Create a Local Branch
 - Create a new branch
 ```
-git checkout -b <my_branch_name>
+git checkout -b <new_branch_name>
 ```
 ### Switch branch
 - Switch to a branch in local repo
 ```
-git checkout <my_branch_name>
+git checkout <branch_name>
 ```
+### Merge branch
 
 ### Delete a Local Branch
 - Delete the branch safely
