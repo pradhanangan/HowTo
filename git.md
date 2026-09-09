@@ -41,7 +41,7 @@ git remote remove origin
 ```
 
 ## Branching
-### View Local Branch
+### View a Local Branch
 - To see local branches
 ```
 git branch
@@ -54,7 +54,7 @@ git branch -r
 ```powershell
 git branch -a
 ```
-
+### Create a Local Branch
 - Create a new branch
 ```
 git checkout -b <my_branch_name>
