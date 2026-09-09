@@ -59,7 +59,7 @@ git branch -a
 ```
 git checkout -b <my_branch_name>
 ```
-
+### Switch branch
 - Switch to a branch in local repo
 ```
 git checkout <my_branch_name>
