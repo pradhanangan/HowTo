@@ -54,17 +54,29 @@ git branch -r
 ```powershell
 git branch -a
 ```
+
 ### Create a New Branch
 ```
 git checkout -b <new_branch_name>
 ```
+
 ### Switch branch
 ```powershell
 git checkout <branch_name>
 ```
+
 ### Merge branch
 ```powershell
 git merge <branch_name>
+```
+### Push Branch
+- Standard Push (First Time)
+```powershell
+git push -u origin <branch-name>
+```
+- Subsequent Push
+```powershell
+git push
 ```
 
 ### Delete a Local Branch
