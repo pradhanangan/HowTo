@@ -41,7 +41,7 @@ git remote remove origin
 ```
 
 ## Branching
-### View a Local Branch
+#### View a Local Branch
 - To see local branches
 ```
 git branch
@@ -55,21 +55,21 @@ git branch -r
 git branch -a
 ```
 
-### Create a New Branch
+#### Create a New Branch
 ```
 git checkout -b <new_branch_name>
 ```
 
-### Switch branch
+#### Switch branch
 ```powershell
 git checkout <branch_name>
 ```
 
-### Merge branch
+#### Merge branch
 ```powershell
 git merge <branch_name>
 ```
-### Push Branch
+#### Push Branch
 - Standard Push (First Time)
 ```powershell
 git push -u origin <branch-name>
@@ -78,7 +78,7 @@ git push -u origin <branch-name>
 ```powershell
 git push
 ```
-### Pull
+#### Pull Branch
 - Standard Pull
 ```powershell
 git pull
@@ -89,7 +89,7 @@ git pull <remote> <branch>
 ```
 e.g., `git pull origin main`
 
-### Delete a Local Branch
+#### Delete a Local Branch
 - Delete the branch safely
 ```powershell
 git branch -d branch_name
