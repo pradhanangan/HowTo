@@ -14,6 +14,7 @@
 | Ctrl + Shift + W | Close window                                                 |
 | Win + V          | Open clipboard manager                                       |
 | Win + Shift + S  | Open snipping tool and take a screenshot                     |
+| Shift + F10      | Right click                                                  |
 
 #### Browser
 
