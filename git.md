@@ -78,6 +78,16 @@ git push -u origin <branch-name>
 ```powershell
 git push
 ```
+### Pull
+- Standard Pull
+```powershell
+git pull
+```
+- Explicit Branch Pull
+```powershell
+git pull <remote> <branch>
+```
+e.g., `git pull origin main`
 
 ### Delete a Local Branch
 - Delete the branch safely
