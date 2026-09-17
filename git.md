@@ -190,6 +190,20 @@ https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 git worktree add -b new_branch_name ../path_to_dir existing_branch_name
 ```
 
+### Update the files in an Existing Worktree
+```powershell
+git pull origin
+```
+
+```powershell
+cd /path/to/your/worktree
+git merge origin/develop
+```
+
+
+
+
+
 ### How to Merge Worktree changes
 1. Commit and push
 ```powershell
