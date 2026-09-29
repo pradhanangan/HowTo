@@ -160,7 +160,12 @@ PS>git clone
 ## Worktree Commands
 ### Create Worktree
 ```powershell
-git worktree add -b new_branch_name ../path_to_dir existing_branch_name
+git worktree add -b new_branch_name ../path/to/your/dir existing_branch_name
+```
+### Push Worktree branch
+```powershell
+cd /path/to/your/worktree
+git push -u origin branch_name
 ```
 
 ### Update the files in an Existing Worktree
