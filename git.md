@@ -160,11 +160,14 @@ PS>git clone
 ## Worktree Commands
 ### Create Worktree
 ```powershell
-git worktree add -b new_branch_name ../path/to/your/dir existing_branch_name
+git worktree add -b new_branch_name ../path/to/your/worktree existing_branch_name
 ```
+
 ### Push Worktree branch
 ```powershell
 cd /path/to/your/worktree
+```
+```powershell
 git push -u origin branch_name
 ```
 
@@ -216,25 +219,31 @@ git branch -d <branch_name>
 
 flow for deployment is as follows:
 
-1. 4 branches.
+1. 5 branches.
+   
    i. Main
-   ii. Test/Release
+   
+   ii. Release
+
    iii.Develop
+
    iv. Feature
 
-1. Decide on feature will go in release/prod
-1. Feature branch is created from develop branch.
-1. Work on new feature on separate Feature branch
-1. Feature branch that will go on release will be merged to the Develop branch
-1. Future features won't be merged to the Develop branch.
-1. Testing
-1. If all feature for release are complete and merged with Develop,
-1. This will be cut-off/no new feature will go on.
-1. Merge Develop branch to the Test/Release branch
-1. Release branch is deployed to the Managed Test
-1. Testing, any issues will be fixed in release branch
-1. Release branch is merged to the Main and deployed to the Prod.
-1. Release branch is merged to the Develop.
+   v. Hotfix
+
+3. Decide on feature will go in release/prod
+4. Feature branch is created from develop branch.
+5. Work on new feature on separate Feature branch
+6. Feature branch that will go on release will be merged to the Develop branch
+7. Future features won't be merged to the Develop branch.
+8. Testing
+9. If all feature for release are complete and merged with Develop,
+10. This will be cut-off/no new feature will go on.
+11. Merge Develop branch to the Test/Release branch
+12. Release branch is deployed to the Managed Test
+13. Testing, any issues will be fixed in release branch
+14. Release branch is merged to the Main and deployed to the Prod.
+15. Release branch is merged to the Develop.
 
 Reference:
 https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
